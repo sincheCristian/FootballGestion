@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Calendar, MapPin, Trophy, Shield } from 'lucide-react';
-import { useMatchData } from '../components/context/matchContext';
+import { useMatchData } from './context/MatchContext';
 
 export const Matches = () => {
   const { matches } = useMatchData();
