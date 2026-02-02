@@ -5,7 +5,7 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip
 } from 'recharts';
 import { Activity, Target, ShieldCheck, Flame } from 'lucide-react';
-import { useMatchData } from '../components/context/matchContext';
+import { useMatchData } from './context/MatchContext';
 import { calculateTeamStats } from '../components/utils/Stats';
 
 const AnalysisCard = ({ title, value, unit, icon: Icon, description }: any) => (
