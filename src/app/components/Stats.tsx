@@ -9,6 +9,8 @@ const scorers = [
 
 const assists = [
   { name: "Christian", assists: 1, match: 2 },
+  { name: "Abou", assists: 1, match: 2 },
+  { name: "Jonathan", assists: 1, match: 2 },
 ];
 
 export const Stats = () => {
