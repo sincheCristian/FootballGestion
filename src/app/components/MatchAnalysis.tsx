@@ -54,7 +54,7 @@ export const MatchAnalysis = () => {
     { name: 'Buts / Match', team: Number(stats.goalsPerMatch), league: 1.4 },
     { name: 'Tirs Cadre', team: Number(stats.shotsOnTarget), league: 4.1 },
     { name: 'Passes %', team: stats.passAccuracy, league: 72 },
-    { name: 'Défense', team: Number(stats.concededPerMatch), league: 1.2 },
+    { name: 'Défense', team: Number(stats.concededPerMatch+88), league: 80 },
   ];
 
   return (
